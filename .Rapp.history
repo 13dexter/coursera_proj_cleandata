@@ -1,0 +1,529 @@
+C <- (1 + r - d)/(u-d) * Cu/(1+r) + (u-1-r)/(u-d)*Cd/(1+r);
+return(C);
+}
+compC
+compC(r=0.1,d=15/30, u=45/30, Cu=45-34,Cd=0)
+save
+q()
+0.05/(5*4/2)
+6+25+3
+6+15+3
+6+16+4
+24/50*7
+71/144.
+224/389
+a <- 71/144.
+b <- 224/389
+b
+1.96 * sqrt(a * (1-a)/144 + b * (1-b)/389)
+sqrt(a * (1-a)/144 + b * (1-b)/389)
+35/250
+sqrt(0.36 * (1-0.36)/50)
+a <- 493/1037
+b <- 596 /1028
+sqrt(a*(1-a)/1037 + b*(1-b)/1028)
+sqrt(0.3*0.7/50)
+sqrt(0.5*0.5/39)
+sqrt(0.5*0.5/39)*1.96
+(29.49-28.64)/28.64
+(109.04-105.06)/105.06
+(29.49-28.64)/28.64
+log(109.04/105.06)
+log(29.49/28.64)
+(109.04-105.06)/105.06
+R_1 <- (109.04-105.06)/105.06
+(1 + R_1)^12 -1
+R_2 <- (29.49-28.64)/28.64
+(1 + R_2)^12 -1
+r_1 <- log(109.04/105.06)
+12 * r_1
+r_2 <- log(29.49/28.64)
+12 * r_2
+(1 + R_1)^12 -1
+((1 + R_1)^12 -1) * 10000
+(1 + R_2)^12 -1
+0.2*R_1 + 0.8*R_2
+log(1 + 0.2*R_1 + 0.8*R_2)
+100000*(0.001 )
+qnorm(0.05)
+100000*(0.001 - 1.645 * 0.05)
+100000*(0.001 - 1.645 * 0.09)
+100000*(0.01 - 1.645 * 0.09)
+100000*(0.001 - 1.645 * sqrt(12)*0.09)
+100000*(0.001 - 1.645 * sqrt(12*0.09))
+100000*(0.001 - 1.645 * sqrt(12)*0.05)
+100000*(0.01 - 1.645 * sqrt(12)*0.09)
+(0.001 - 1.645 * 0.09)
+(exp((0.001 - 1.645 * 0.09) ) - 1) * 100000
+(exp((0.001 - 1.645 * 0.05) ) - 1) * 100000
+(exp((0.01 - 1.645 * 0.09) ) - 1) * 100000
+(exp((0.001 - 1.645 * sqrt(12) * 0.05) ) - 1) * 100000
+(exp((0.001*12 - 1.645 * sqrt(12) * 0.05) ) - 1) * 100000
+(exp((0.01*12 - 1.645 * sqrt(12) * 0.09) ) - 1) * 100000
+3/0.55
+1.5/(1-5.45^2)
+1.5^2/(1-5.45^2)
+1.5^2/(1-0.45^2)
+1.5^2*0.45
+2.8213^2*0.45
+2.8213*0.45
+0.77^2
+sqrt(0.6)
+sqrt(0.72)
+64.68-0.62*81.4
+13.1 - 64.68-0.62*81.4
+13.1 -( 64.68-0.62*81.4 )
+2.869/3.008
+76+0.43*30 +0.35*72
+950^(1.08)^8
+950*(1.08)^8
+ls
+0.88^4
+1-0.88^4
+qnorm(0.01)
+qnorm(0.025)
+qnorm(0.01)
+248.3-244.8 - abs(qnorm(0.01)) * 2/sqrt(10)
+248.3-244.8 + abs(qnorm(0.01)) * 2/sqrt(10)
+248.3-244.8
+3.5-2.65
+3.5-6.48
+3.5-6.13
+3.5-0.87
+195528-1627
+1627/2
+193901/828
+813.5/234.18
+pf(3.47,2,828,lower.tail=F)
+1627/193901
+binom(1)
+bnorm(1)
+dbinom(18:100,100,0.11)
+sum(dbinom(18:100,100,0.11)()
+)
+sum(dbinom(18:100,100,0.11))
+sum(dbinom(17:100,100,0.11))
+sum(dbinom(0:100,100,0.11))
+sum(dbinom(11:100,100,0.11))
+sum(dbinom(15:100,100,0.11))
+sum(dbinom(17:100,100,0.11))
+112/625
+513/625
+46*0.1792
+579*0.1792
+46*0.8208
+579*0.8208
+0.05*0.93/(0.05*0.93+0.95*0.03)
+1-(3819.99/15079.02*251/243)
+1-(3819.99/15079.02*251/244)
+1-(3819.99/15079.02*251/243)
+36.5 + 3*73
+49 + 12 * 98
+36.5 + 73*12
+49 + 98*3
+0.43*12
+5.59*sqrt(12)
+((0.43*12-0.08*12)/(sqrt(12)*5.59))
+0.49*12
+2.90*sqrt(12)
+((0.49*12-0.08*12)/(sqrt(12)*2.90))
+1.28*12
+8.45*sqrt(12)
+((1.28*12-0.08*12)/(sqrt(12)*8.45))
+1.28/3+0.49/3+0.43/3
+1.28*-0.22+0.49*1.71+0.43*-0.49
+1.28*-0.74+0.49*1.15+0.43*-0.58
+1.28*-0.74+0.49*1.15+0.43*0.58
+0.43*0.33+0.49*0.33+1.28*0.33
+0.43*-0.22+0.49*1.71+1.28*-0.49
+0.43*-0.74+0.49*1.15+1.28*0.58
+0.43*0.45+0.49*0.28+1.28*0.27
+0.08*0.5 + 1.76*0.5
+0.08*0.38 + 1.76*0.62
+0.08*0.45 + 1.76*0.55
+6.53*0.55 +
+0
+6.53*0.55
+6.53*sqrt(0.55)
+6.53*0.55^2
+6.53*sqrt(0.55)
+6.53*0.55
+-197*0.55
+((0.0043*0.23+0.0049*0.87+0.0128*-0.10)+(0.0559*0.23+0.0029*0.87+0.0845*-0.10)*1.96)*100000
+((0.0043*0.23+0.0049*0.87+0.0128*-0.10)+(0.0559*0.23+0.0029*0.87+0.0845*-0.10)*qnorm(0.05))*100000
+((0.0043*0.23+0.0049*0.87+0.0128*-0.10)+(0.0559*0.23+0.0029*0.87+0.0845*-0.10)*qnorm(0.025))*100000
+(0.0040 + 0.0284*qnorm(0.05))*100000
+0.23 *1.00139  + 0.87 *0.16639 -0.10 *1.5262
+(0.0040 + 0.0284*qnorm(0.05))*100000
+qnorm(0.05)
+(0.0040 + 0.0284*qnorm(0.05))*100000
+log((0.0040 + 0.0284*qnorm(0.05))*100000)
+q()
+library(plyr)
+features <- read.table("../project_data/features.txt",sep=" ", header=F)#
+activity_labels <- read.table("../project_data/activity_labels.txt",sep=" ", header=F)#
+#
+# -- test #
+X_test <- readLines("../project_data/test/X_test.txt")#
+X_test <- gsub(" -",",-",X_test)#
+X_test <- gsub("  ",",", X_test)#
+X_test <- strsplit(X_test, split=",")
+X_test
+dim(X_test)
+length(X_test)
+length(X_test[[1]])
+length(X_test[[2]])
+length(X_test[[3]])
+rem_firstElement <- function(x){x[2:]}#
+X_test <- sapply(X_test,rem_firstElement)
+rem_firstElement <- function(x){ x[2:length(x)] }
+X_test <- sapply(X_test,rem_firstElement)
+X_test[[1]]
+X_test[1]
+dim(X_test)
+head(X_test)
+X_test_raw <- readLines("../project_data/test/X_test.txt")#
+X_test <- gsub(" -",",-",X_test_raw)#
+X_test <- gsub("  ",",", X_test)#
+X_test <- strsplit(X_test, split=",")
+X_test[1]
+X_test[[1]]
+X_test[[2]]
+length(X_test)
+rbind(X_test[1],X_test[2])
+rbind(X_test[[1]],X_test[[2]])
+X_test_tmp <- gsub(" -",",-",X_test_raw)#
+X_test_tmp <- gsub("  ",",", X_test)#
+X_test_tmp <- strsplit(X_test, split=",")#
+create_test_df <- function(x){#
+	data = data.frame(x[[1]]);#
+	for (l in 2:length(x)){#
+		data <- cbind(data, x[[2]]);#
+	}#
+	return(data)#
+}#
+#rem_firstElement <- function(x){ x[2:length(x)] }#
+X_test <- create_test_df(X_test_tmp)
+X_test_raw <- readLines("../project_data/test/X_test.txt")#
+X_test_tmp <- gsub(" -",",-",X_test_raw)#
+X_test_tmp <- gsub("  ",",", X_test_tmp)#
+X_test_tmp <- strsplit(X_test, split=",")
+X_test_tmp <- strsplit(X_test_tmp, split=",")
+create_test_df <- function(x){#
+	data = data.frame(x[[1]]);#
+	for (l in 2:length(x)){#
+		data <- cbind(data, x[[2]]);#
+	}#
+	return(data)#
+}#
+#rem_firstElement <- function(x){ x[2:length(x)] }#
+X_test <- create_test_df(X_test_tmp)
+create_test_df <- function(x){#
+	data = data.frame(x[[1]]);#
+	for (l in 2:length(x)){#
+		data <- rbind(data, x[[2]]);#
+	}#
+	return(data)#
+}#
+#rem_firstElement <- function(x){ x[2:length(x)] }#
+X_test <- create_test_df(X_test_tmp)
+head(X_test)
+X_test_tmp[[1]]
+X_test_tmp[[2]]
+data = data.frame(X_test_tmp[[1]])
+data
+create_test_df <- function(x){#
+	mat = matrix(x[[1]], ncol=length(x[[1]]));#
+	for (l in 2:length(x)){#
+		mat <- rbind(mat, x[[2]]);#
+	}#
+	data <- as.data.frame(mat)#
+	return(data)#
+}#
+#rem_firstElement <- function(x){ x[2:length(x)] }#
+X_test <- create_test_df(X_test_tmp)
+create_test_df <- function(x){#
+	mat = matrix(x[[1]], ncol=length(x[[1]]));#
+	for (irow in 2:length(x)){#
+		mat <- rbind(mat, x[[irow]]);#
+	}#
+	data <- as.data.frame(mat)#
+	return(data)#
+}
+X_test <- create_test_df(X_test_tmp)
+head(X_test,1)
+head(X_test,2)
+head(X_test,2)
+X_test <- X_test[,2:]
+X_test <- X_test[,2:ncol(X_test)]
+X_test[1,]
+y_test <- read.table("../project_data/test/y_test.txt",sep=" ",header=F)#
+subject_test <- read.table("../project_data/test/subject_test.txt",sep=" ",header=F)#
+# -- train#
+X_train <- read.table("../project_data/train/X_train.txt",sep="\n",header=F)#
+y_train <- read.table("../project_data/train/y_train.txt",sep=" ",header=F)#
+subject_train <- read.table("../project_data/train/subject_train.txt",sep=" ",header=F)
+dim(y_test)
+dim(subject_test)
+body_acc_x_test <- readLines("../project_data/test/Inertial\ Signals/body_acc_x_test.txt")
+body_acc_x_test
+body_acc_x_test[1]
+X_test[1,]
+X_test[1,]==1.1653150e-002
+sum(X_test[1,]==1.1653150e-002)
+sum(X_test[1,]=="1.1653150e-002")
+create_test_df <- function(x){#
+	mat = matrix(x[[1]], ncol=length(x[[1]]));#
+	for (irow in 2:length(x)){#
+		mat <- rbind(mat, x[[irow]]);#
+	}#
+	data <- as.data.frame(mat)#
+	return(data)#
+}#
+#
+create_df <- function(fname=""){#
+	rawdata <- readLines(fname);#
+	tmp <- gsub(" -",",-",rawdata);#
+	tmp <- gsub("  ",",", tmp);#
+	tmp <- strsplit(tmp, split=",");#
+	data <- create_test_df(tmp);#
+	data <- data[,2:ncol(data)];#
+	return(data);#
+}
+X_test <- create_df("../project_data/test/X_test.txt")
+seq(1,10)
+seq(1,20)
+head(X_test)
+class(X_test[1,1])
+class(X_test[,])
+create_test_df <- function(x){#
+	mat = matrix(as.numeric(x[[1]]), ncol=length(x[[1]]));#
+	for (irow in 2:length(x)){#
+		mat <- rbind(mat, as.numeric(x[[irow]]));#
+	}#
+	data <- as.data.frame(mat)#
+	return(data)#
+}#
+#
+create_df <- function(fname=""){#
+	rawdata <- readLines(fname);#
+	tmp <- gsub(" -",",-",rawdata);#
+	tmp <- gsub("  ",",", tmp);#
+	tmp <- strsplit(tmp, split=",");#
+	data <- create_test_df(tmp);#
+	data <- data[,2:ncol(data)];#
+	return(data);#
+}
+X_test <- create_df("../project_data/test/X_test.txt")
+head(X_test)
+head(features)
+dim(features)
+colnames(X_test) <- features[,2]
+colnames(X_test)
+rep("x-",2)
+rep("x-",2) + seq(1,2)
+rep_name <- function(base="",rep=1){#
+	name_list = c();#
+	for (i in 1:rep){#
+		name_list <- c(name_list, paste(base, "-", i ,sep=""))#
+	}#
+	return(name_list);#
+}
+body_acc_x_test <- create_df("../project_data/test/Inertial\ Signals/body_acc_x_test.txt")#
+colnames(body_acc_x_test) <- rep_name("body_acc_x_test")
+body_acc_x_test <- create_df("../project_data/test/Inertial\ Signals/body_acc_x_test.txt")#
+colnames(body_acc_x_test) <- rep_name("body_acc_x_test", ncol(body_acc_x_test))
+names(body_acc_x_test)
+dim(body_acc_x_test)
+dim(activity_labels)
+activity_labels
+head(y_test)
+table(y_test)
+table(subject_test)
+head(y_test)
+features <- read.table("../project_data/features.txt",sep=" ", header=F)#
+activity_labels <- read.table("../project_data/activity_labels.txt",sep=" ", header=F)#
+colnames(activity_labels) <- c("activity_code","activity_name")#
+#
+# functions#
+create_test_df <- function(x){#
+	mat = matrix(as.numeric(x[[1]]), ncol=length(x[[1]]));#
+	for (irow in 2:length(x)){#
+		mat <- rbind(mat, as.numeric(x[[irow]]));#
+	}#
+	data <- as.data.frame(mat)#
+	return(data)#
+}#
+#
+create_df <- function(fname=""){#
+	rawdata <- readLines(fname);#
+	tmp <- gsub(" -",",-",rawdata);#
+	tmp <- gsub("  ",",", tmp);#
+	tmp <- strsplit(tmp, split=",");#
+	data <- create_test_df(tmp);#
+	data <- data[,2:ncol(data)];#
+	return(data);#
+}#
+#
+rep_name <- function(base="",rep=1){#
+	name_list = c();#
+	for (i in 1:rep){#
+		name_list <- c(name_list, paste(base, "-", i ,sep=""))#
+	}#
+	return(name_list);#
+}#
+#-------------------------------------------------------------------------#
+# -- test data#
+X_test <- create_df("../project_data/test/X_test.txt")#
+colnames(X_test) <- features[,2]#
+#
+y_test <- read.table("../project_data/test/y_test.txt",sep=" ",header=F)#
+colnames(y_test) <- "activity_code"#
+subject_test <- read.table("../project_data/test/subject_test.txt",sep=" ",header=F)#
+colnames(subject_test) <- "person_id"#
+#
+body_acc_x_test <- create_df("../project_data/test/Inertial\ Signals/body_acc_x_test.txt")#
+colnames(body_acc_x_test) <- rep_name("body_acc_x_test", ncol(body_acc_x_test))#
+body_acc_y_test <- create_df("../project_data/test/Inertial\ Signals/body_acc_y_test.txt")#
+colnames(body_acc_y_test) <- rep_name("body_acc_y_test", ncol(body_acc_y_test))#
+body_acc_z_test <- create_df("../project_data/test/Inertial\ Signals/body_acc_z_test.txt")#
+colnames(body_acc_z_test) <- rep_name("body_acc_z_test", ncol(body_acc_z_test))#
+#
+body_gyro_x_test <- create_df("../project_data/test/Inertial\ Signals/body_gyro_x_test.txt")#
+colnames(body_gyro_x_test) <- rep_name("body_gyro_x_test", ncol(body_gyro_x_test))#
+body_gyro_y_test <- create_df("../project_data/test/Inertial\ Signals/body_gyro_y_test.txt")#
+colnames(body_gyro_y_test) <- rep_name("body_gyro_y_test", ncol(body_gyro_y_test))#
+body_gyro_z_test <- create_df("../project_data/test/Inertial\ Signals/body_gyro_z_test.txt")#
+colnames(body_gyro_z_test) <- rep_name("body_gyro_z_test", ncol(body_gyro_z_test))#
+#
+total_acc_x_test <- create_df("../project_data/test/Inertial\ Signals/total_acc_x_test.txt")#
+colnames(total_acc_x_test) <- rep_name("total_acc_x_test", ncol(total_acc_x_test))#
+total_acc_y_test <- create_df("../project_data/test/Inertial\ Signals/total_acc_y_test.txt")#
+colnames(total_acc_y_test) <- rep_name("total_acc_y_test", ncol(total_acc_y_test))#
+total_acc_z_test <- create_df("../project_data/test/Inertial\ Signals/total_acc_z_test.txt")#
+colnames(total_acc_z_test) <- rep_name("total_acc_z_test", ncol(total_acc_z_test))
+data.test <- cbind(subject_test, y_test, X_test, #
+	body_acc_x_test, body_acc_y_test, body_acc_z_test,#
+	body_gyro_x_test, body_gyro_y_test, body_gyro_z_test,#
+	total_acc_x_test, total_acc_y_test, total_acc_z_test)
+dim(data.test)
+names(data.test)
+loading data#
+# -- common data#
+features <- read.table("../project_data/features.txt",sep=" ", header=F)#
+activity_labels <- read.table("../project_data/activity_labels.txt",sep=" ", header=F)#
+colnames(activity_labels) <- c("activity_code","activity_name")#
+#
+# functions#
+create_test_df <- function(x){#
+	mat = matrix(as.numeric(x[[1]]), ncol=length(x[[1]]));#
+	for (irow in 2:length(x)){#
+		mat <- rbind(mat, as.numeric(x[[irow]]));#
+	}#
+	data <- as.data.frame(mat)#
+	return(data)#
+}#
+#
+create_df <- function(fname=""){#
+	rawdata <- readLines(fname);#
+	tmp <- gsub(" -",",-",rawdata);#
+	tmp <- gsub("  ",",", tmp);#
+	tmp <- strsplit(tmp, split=",");#
+	data <- create_test_df(tmp);#
+	data <- data[,2:ncol(data)];#
+	return(data);#
+}#
+#
+rep_name <- function(base="",rep=1){#
+	name_list = c();#
+	for (i in 1:rep){#
+		name_list <- c(name_list, paste(base, "-", i ,sep=""))#
+	}#
+	return(name_list);#
+}#
+#-------------------------------------------------------------------------#
+# -- test data#
+X_test <- create_df("../project_data/test/X_test.txt")#
+colnames(X_test) <- features[,2]#
+#
+y_test <- read.table("../project_data/test/y_test.txt",sep=" ",header=F)#
+colnames(y_test) <- "activity_code"#
+subject_test <- read.table("../project_data/test/subject_test.txt",sep=" ",header=F)#
+colnames(subject_test) <- "person_id"#
+#
+data.test <- cbind(subject_test, y_test, X_test)#
+#
+#body_acc_x_test <- create_df("../project_data/test/Inertial\ Signals/body_acc_x_test.txt")#
+#colnames(body_acc_x_test) <- rep_name("body_acc_x_test", ncol(body_acc_x_test))#
+#body_acc_y_test <- create_df("../project_data/test/Inertial\ Signals/body_acc_y_test.txt")#
+#colnames(body_acc_y_test) <- rep_name("body_acc_y_test", ncol(body_acc_y_test))#
+#body_acc_z_test <- create_df("../project_data/test/Inertial\ Signals/body_acc_z_test.txt")#
+#colnames(body_acc_z_test) <- rep_name("body_acc_z_test", ncol(body_acc_z_test))#
+#
+#body_gyro_x_test <- create_df("../project_data/test/Inertial\ Signals/body_gyro_x_test.txt")#
+#colnames(body_gyro_x_test) <- rep_name("body_gyro_x_test", ncol(body_gyro_x_test))#
+#body_gyro_y_test <- create_df("../project_data/test/Inertial\ Signals/body_gyro_y_test.txt")#
+#colnames(body_gyro_y_test) <- rep_name("body_gyro_y_test", ncol(body_gyro_y_test))#
+#body_gyro_z_test <- create_df("../project_data/test/Inertial\ Signals/body_gyro_z_test.txt")#
+#colnames(body_gyro_z_test) <- rep_name("body_gyro_z_test", ncol(body_gyro_z_test))#
+#
+#total_acc_x_test <- create_df("../project_data/test/Inertial\ Signals/total_acc_x_test.txt")#
+#colnames(total_acc_x_test) <- rep_name("total_acc_x_test", ncol(total_acc_x_test))#
+#total_acc_y_test <- create_df("../project_data/test/Inertial\ Signals/total_acc_y_test.txt")#
+#colnames(total_acc_y_test) <- rep_name("total_acc_y_test", ncol(total_acc_y_test))#
+#total_acc_z_test <- create_df("../project_data/test/Inertial\ Signals/total_acc_z_test.txt")#
+#colnames(total_acc_z_test) <- rep_name("total_acc_z_test", ncol(total_acc_z_test))#
+#
+#data.test <- cbind(subject_test, y_test, X_test, #
+#	body_acc_x_test, body_acc_y_test, body_acc_z_test,#
+#	body_gyro_x_test, body_gyro_y_test, body_gyro_z_test,#
+#	total_acc_x_test, total_acc_y_test, total_acc_z_test)#
+#
+## -- test -- endline#
+# -- train#
+X_train <- create_df("../project_data/train/X_train.txt")#
+colnames(X_train) <- features[,2]#
+#
+y_train <- read.table("../project_data/train/y_train.txt",sep=" ",header=F)#
+colnames(y_train) <- "activity_code"#
+subject_train <- read.table("../project_data/train/subject_train.txt",sep=" ",header=F)#
+colnames(subject_train) <- "person_id"#
+#
+data.train <- cbind(subject_train, y_train, X_train)#
+#
+#body_acc_x_train <- create_df("../project_data/train/Inertial\ Signals/body_acc_x_train.txt")#
+#colnames(body_acc_x_train) <- rep_name("body_acc_x_train", ncol(body_acc_x_train))#
+#body_acc_y_train <- create_df("../project_data/train/Inertial\ Signals/body_acc_y_train.txt")#
+#colnames(body_acc_y_train) <- rep_name("body_acc_y_train", ncol(body_acc_y_train))#
+#body_acc_z_train <- create_df("../project_data/train/Inertial\ Signals/body_acc_z_train.txt")#
+#colnames(body_acc_z_train) <- rep_name("body_acc_z_train", ncol(body_acc_z_train))#
+#
+#body_gyro_x_train <- create_df("../project_data/train/Inertial\ Signals/body_gyro_x_train.txt")#
+#colnames(body_gyro_x_train) <- rep_name("body_gyro_x_train", ncol(body_gyro_x_train))#
+#body_gyro_y_train <- create_df("../project_data/train/Inertial\ Signals/body_gyro_y_train.txt")#
+#colnames(body_gyro_y_train) <- rep_name("body_gyro_y_train", ncol(body_gyro_y_train))#
+#body_gyro_z_train <- create_df("../project_data/train/Inertial\ Signals/body_gyro_z_train.txt")#
+#colnames(body_gyro_z_train) <- rep_name("body_gyro_z_train", ncol(body_gyro_z_train))#
+#
+#total_acc_x_train <- create_df("../project_data/train/Inertial\ Signals/total_acc_x_train.txt")#
+#colnames(total_acc_x_train) <- rep_name("total_acc_x_train", ncol(total_acc_x_train))#
+#total_acc_y_train <- create_df("../project_data/train/Inertial\ Signals/total_acc_y_train.txt")#
+#colnames(total_acc_y_train) <- rep_name("total_acc_y_train", ncol(total_acc_y_train))#
+#total_acc_z_train <- create_df("../project_data/train/Inertial\ Signals/total_acc_z_train.txt")#
+#colnames(total_acc_z_train) <- rep_name("total_acc_z_train", ncol(total_acc_z_train))#
+#
+#data.train <- cbind(subject_train, y_train, X_train, #
+#	body_acc_x_train, body_acc_y_train, body_acc_z_train,#
+#	body_gyro_x_train, body_gyro_y_train, body_gyro_z_train,#
+#	total_acc_x_train, total_acc_y_train, total_acc_z_train)#
+#
+## -- train -- end#
+#
+# merge train & test data#
+data.all <- rbind(data.train, data.test)
+ndim(data.test)
+dim(data.test)
+dim(data.train)
+data.test[,c(grep("(mean()|std())",colnames(data.test)))]
+head(data.test[,c(1, 2, grep("(mean()|std())",colnames(data.test) ) )])
+dim(data.test[,c(1, 2, grep("(mean()|std())",colnames(data.test) ) )])
