@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>Code Book</title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<h1>Code Book</h1>
+
+<p>Data for tidy dataset is taken from Human Activity Recognition Using Smartphones Dataset.
+This dataset was filtered by non-mean and non-std data.
+In tidy dataset all filtered data was grouped by userId and taking action, so it contain 144 row for 24 people and 6 actions.
+All data is normalized to [-1, 1] interval.
+All except two last rows taken by (X/Y/Z coordinate)</p>
+
+<ul>
+<li>&ldquo;id_person&rdquo; - user id from 1 to 24 [Integer]</li>
+<li>&ldquo;activity_code&rdquo; - activity code from 1 to 6 [Integer]</li>
+<li>&ldquo;activity_name&rdquo; - activity type name [String]</li>
+<li>&ldquo;tBodyAcc-mean()-X&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyAcc-mean()-Y&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyAcc-mean()-Z&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyAcc-std()-X&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyAcc-std()-Y&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyAcc-std()-Z&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tGravityAcc-mean()-X&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tGravityAcc-mean()-Y&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tGravityAcc-mean()-Z&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tGravityAcc-std()-X&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tGravityAcc-std()-Y&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tGravityAcc-std()-Z&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyAccJerk-mean()-X&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyAccJerk-mean()-Y&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyAccJerk-mean()-Z&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyAccJerk-std()-X&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyAccJerk-std()-Y&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyAccJerk-std()-Z&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyGyro-mean()-X&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyGyro-mean()-Y&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyGyro-mean()-Z&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyGyro-std()-X&rdquo; - std of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyGyro-std()-Y&rdquo; - std of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyGyro-std()-Z&rdquo; - std of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyGyroJerk-mean()-X&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyGyroJerk-mean()-Y&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyGyroJerk-mean()-Z&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyGyroJerk-std()-X&rdquo; - std of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyGyroJerk-std()-Y&rdquo; - std of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyGyroJerk-std()-Z&rdquo; - std of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyAccMag-mean()&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyAccMag-std()&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tGravityAccMag-mean()&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tGravityAccMag-std()&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyAccJerkMag-mean()&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyAccJerkMag-std()&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;tBodyGyroMag-mean()&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyGyroMag-std()&rdquo; - std of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyGyroJerkMag-mean()&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;tBodyGyroJerkMag-std()&rdquo; - std of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyAcc-mean()-X&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAcc-mean()-Y&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAcc-mean()-Z&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAcc-std()-X&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAcc-std()-Y&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAcc-std()-Z&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAcc-mean()-FreqX&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAcc-mean()-FreqY&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAcc-mean()-FreqZ&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAccJerk-mean()-X&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAccJerk-mean()-Y&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAccJerk-mean()-Z&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAccJerk-std()-X&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAccJerk-std()-Y&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAccJerk-std()-Z&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAccJerk-mean()-FreqX&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAccJerk-mean()-FreqY&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAccJerk-mean()-FreqZ&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyGyro-mean()-X&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyGyro-mean()-Y&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyGyro-mean()-Z&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyGyro-std()-X&rdquo; - std of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyGyro-std()-Y&rdquo; - std of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyGyro-std()-Z&rdquo; - std of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyGyro-mean()-FreqX&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyGyro-mean()-FreqY&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyGyro-mean()-FreqZ&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyAccMag-mean()&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAccMag-std()&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyAccMag-mean()-Freq&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyBodyAccJerkMag-mean()&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyBodyAccJerkMag-std()&rdquo; - std of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyBodyAccJerkMag-mean()-Freq&rdquo; - mean of triaxial acceleration from the accelerometer</li>
+<li>&ldquo;fBodyBodyGyroMag-mean()&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyBodyGyroMag-std()&rdquo; - std of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyBodyGyroMag-mean()-Freq&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyBodyGyroJerkMag-mean()&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyBodyGyroJerkMag-std()&rdquo; - std of triaxial angular velocity from the gyroscope</li>
+<li>&ldquo;fBodyBodyGyroJerkMag-mean()-Freq&rdquo; - mean of triaxial angular velocity from the gyroscope</li>
+</ul>
+
+</body>
+
+</html>
+

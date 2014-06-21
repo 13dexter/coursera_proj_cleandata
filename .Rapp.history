@@ -168,7 +168,6 @@ create_test_df <- function(x){#
 X_test <- create_test_df(X_test_tmp)
 head(X_test,1)
 head(X_test,2)
-head(X_test,2)
 X_test <- X_test[,2:]
 X_test <- X_test[,2:ncol(X_test)]
 X_test[1,]
@@ -443,8 +442,6 @@ data.test[,c(grep("(mean()|std())",colnames(data.test)))]
 head(data.test[,c(1, 2, grep("(mean()|std())",colnames(data.test) ) )])
 dim(data.test[,c(1, 2, grep("(mean()|std())",colnames(data.test) ) )])
 gc()
-gc()
-gc()
 gc)()
 gc()
 loading data#
@@ -592,11 +589,9 @@ data.ext.tmp$category <- factor(#
 	)
 tapply(data.ext.tmp$tBodyAcc-mean()-X, data.ext.tmp$category, mean)
 data.ext.tmp$tBodyAcc-mean()-X
-data.ext.tmp$tBodyAcc-mean()-X
 tapply(data.ext.tmp[,3], data.ext.tmp$category, mean)
 length(tapply(data.ext.tmp[,3], data.ext.tmp$category, mean))
 names(data.ext)
-names(data.ext.tmp)
 names(data.ext.tmp)
 c(2:10)
 data.ext.tmp <- data.ext.tmp[,c(70,2,1,3,4:68)]
